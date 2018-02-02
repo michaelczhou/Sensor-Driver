@@ -1,0 +1,589 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Walter Chen<walnutcy@163.com>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: e2687_cfg\n"
+"POT-Creation-Date: 2014-05-10 11:00+0800\n"
+"PO-Revision-Date: 2015-07-08 14:44+0800\n"
+"Last-Translator: walter chen <walnutcy@163.com>\n"
+"Language-Team: LANGUAGE <www.gnss8.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 1.6.5\n"
+
+# --ConfigDialog
+msgid "bt_link"
+msgstr "连接设备"
+
+msgid "bt_break"
+msgstr "断开设备"
+
+msgid "cb_logfile"
+msgstr "记录数据文件"
+
+msgid "ss_lang"
+msgstr "语言(需重启)"
+
+msgid "bt_about"
+msgstr "关于"
+
+msgid "bt_exit"
+msgstr "退出"
+
+msgid "pg_help"
+msgstr "帮助"
+
+msgid "pg_setting"
+msgstr "参数设置"
+
+msgid "pg_manual"
+msgstr "手册"
+
+msgid "pg_serial"
+msgstr "串口"
+
+msgid "pg_view"
+msgstr "视图"
+
+msgid "pg_statView"
+msgstr "统计图"
+
+msgid "pg_obsView"
+msgstr "观测图"
+
+# ----BaseStation Panel
+msgid "bss_workMode"
+msgstr "设备工作模式:"
+
+msgid "brd_rover"
+msgstr "移动站"
+
+msgid "brd_base"
+msgstr "基准站"
+
+msgid "bgrp_basePos"
+msgstr "基准站坐标"
+
+msgid "bss_Lat"
+msgstr "纬度:"
+
+msgid "bss_Lon"
+msgstr "经度:"
+
+msgid "bss_Alt"
+msgstr "高程:"
+
+msgid "bbt_gga"
+msgstr "当前GGA"
+
+msgid "bbt_collect"
+msgstr "开始采集"
+
+msgid "btt_waiting"
+msgstr "等待定位"
+
+msgid "bgrp_corr"
+msgstr "差分链路"
+
+msgid "brd_netUdp"
+msgstr "网络UDP"
+
+msgid "brd_netTcp"
+msgstr "网络TCP"
+
+msgid "brd_serial"
+msgstr "串口"
+
+msgid "brd_udpCom"
+msgstr "UDP+串口"
+
+msgid "bcb_udpReg"
+msgstr "UDP注册机制"
+
+msgid "bss_ipAddr"
+msgstr "IP地址:"
+
+msgid "bss_Port"
+msgstr "端口:"
+
+msgid "bss_baudrate"
+msgstr "差分口速率:"
+
+msgid "bcb_ntrip"
+msgstr "Ntrip协议"
+
+msgid "bss_mount"
+msgstr "挂载点:"
+
+msgid "bss_user"
+msgstr "用户名:"
+
+msgid "bss_password"
+msgstr "密码:"
+
+msgid "bgrp_ipSetting"
+msgstr "设备IP设置"
+
+msgid "bss_mask"
+msgstr "子网掩码:"
+
+msgid "bss_gate"
+msgstr "网关:"
+
+msgid "bss_deviceinfo"
+msgstr "设备信息:"
+
+msgid "bbt_freset"
+msgstr "恢复出厂设置"
+
+msgid "bbt_reset"
+msgstr "重启设备"
+
+msgid "bbt_readCfg"
+msgstr "读取配置"
+
+msgid "bbt_set"
+msgstr "设置"
+
+msgid "bss_vectorDistence"
+msgstr "测向双天线间距:"
+
+msgid "bss_meter"
+msgstr "米(m)"
+
+msgid "bss_roverout"
+msgstr "输出语句选择"
+
+msgid "bss_outrate"
+msgstr "输出速率(Hz)"
+
+msgid "brd_radio"
+msgstr "内置电台"
+
+msgid "bss_rFreq"
+msgstr "接收频率(MHz)"
+
+msgid "bss_radioBaud"
+msgstr "空中波特率"
+
+msgid "bss_radioPower"
+msgstr "电台功率"
+
+msgid "bss_radioProtocol"
+msgstr "电台协议"
+
+# -----Serial Panel
+msgid "sbt_reset"
+msgstr "复位"
+
+msgid "sbt_query"
+msgstr "查询"
+
+msgid "sbt_joff"
+msgstr "$JOFF"
+
+msgid "sbt_test"
+msgstr "测试"
+
+msgid "sbt_noSbas"
+msgstr "禁用SBAS"
+
+msgid "sbt_clear"
+msgstr "清屏"
+
+msgid "sbt_display"
+msgstr "显示"
+
+msgid "sbt_pause"
+msgstr "暂停"
+
+msgid "sbt_send"
+msgstr "发送"
+
+# -----LCD Panel
+msgid "lbt_veiw"
+msgstr "视图"
+
+msgid "lbt_table"
+msgstr "表格"
+
+# -----Stat Panel
+msgid "sgrp_trackview"
+msgstr "轨迹图"
+
+msgid "srd_current"
+msgstr "当前位置"
+
+msgid "srd_mean"
+msgstr "平均坐标"
+
+msgid "srd_fix"
+msgstr "固定坐标"
+
+msgid "sgrp_seting"
+msgstr "轨迹图设置"
+
+msgid "sss_trackcnt"
+msgstr "轨迹点数量:"
+
+msgid "scb_range"
+msgstr "偏差距离"
+
+msgid "scb_grid"
+msgstr "网格"
+
+msgid "scb_marker"
+msgstr "点"
+
+msgid "sss_viewtype"
+msgstr "视图:"
+
+# -----help command list
+msgid "help_cmd_0"
+msgstr "常用指令"
+
+msgid "help_cmd_1"
+msgstr "网络配置"
+
+msgid "help_cmd_2"
+msgstr "工作模式"
+
+msgid "help_cmd_3"
+msgstr "查看当前配置"
+
+msgid "help_cmd_4"
+msgstr "设备状态"
+
+msgid "help_cmd_5"
+msgstr "北斗状态"
+
+msgid "help_cmd_6"
+msgstr "基准站相关"
+
+msgid "help_cmd_7"
+msgstr "移动站相关"
+
+msgid "help_cmd_8"
+msgstr "快速配置"
+
+msgid "help_cmd_9"
+msgstr "UDP广播模式"
+
+msgid "help_cmd_10"
+msgstr "UDP握手模式"
+
+msgid "help_cmd_11"
+msgstr "故障诊断"
+
+# -----help info list
+msgid "help_info_0"
+msgstr ""
+"通过控制串口设置仪器参数，出厂默认波特率为115200。\r\n"
+"指令由命令字及参数、结束符构成。\r\n"
+"命令字与参数均由ASCII描述，结束符为“回车换行<CRLF>(0x0D,0x0A)”。\r\n"
+"命令字不区分大小写，部分参数区分大小写。命令字、参数均以空格为分隔符。\r\n"
+"\r\n"
+"例如：\r\n"
+"查询设备配置信息的命令为：\r\n"
+"RTU INFO<CRLF>\r\n"
+"\r\n"
+"基准站配置为TCP Ntrip模式时，配置挂载点及密码指令为：\r\n"
+"BASE MOUNTPOINT <mount> <password> <CRLF>\r\n"
+"其中<mount>为基准站的挂载点名称，\r\n"
+"    <password>为移动站登录用的密码。\r\n"
+"每个参数不超过10个字母，区分大小写。\r\n"
+"\r\n"
+"注意：修改设备的基准站或移动站等配置后，需要重启才能完全采用新参数。"
+
+msgid "help_info_1"
+msgstr ""
+"静态IP设置指令，\r\n"
+"ETH IPSTATIC <ip_addr> <mask> <gate> <CRLF>\r\n"
+"其中<ip_addr>为静态IP地址，<mask>为子网掩码，<gate>为网关；\r\n"
+"三者格式均为 a.b.c.d。\r\n"
+"例如：ETH IPSTATIC 192.168.2.6  255.255.255.0  192.168.2.1 <CRLF>\r\n"
+"\r\n"
+"自动获取IP地址指令：\r\n"
+"ETH IPDHCP [ON,OFF] <CRLF>\r\n"
+"其中[ON,OFF]表示参数为ON或者OFF，二选一。\r\n"
+"ON表示启用DHCP自动获取IP，OFF表示使用静态IP设置。\r\n"
+"\r\n"
+"查询MAC地址，(MAC地址为网卡的全球唯一物理地址编码,48位)：\r\n"
+"ETH MAC <CRLF>"
+
+msgid "help_info_2"
+msgstr ""
+"工作模式是根据获取或输出差分数据来区分的，设备对外的接口：RJ45网口、3针RS232"
+"串口。\r\n"
+"网口支持标准的TCP/IP协议，目前应用均按IPv4设计，应用层可选择使用TCP或"
+"UDP。\r\n"
+"设备可作为基准站Base(对外发送差分数据)或移动站Rover(接收差分数据)。\r\n"
+"其中基准站对应不同的接口与协议，分别称之为UDP Base、串口Base、Ntrip "
+"Caster(TCP)、Ntrip Server(TCP)；移动站对应不同的接口与协议，分另称之为UDP "
+"Rover、Ntrip Client(TCP)、串口Rover。\r\n"
+"\r\n"
+"设备的不同工作模式是通过两条指令组合配置的，指令分别为：\r\n"
+"RTU MODE [BASE,ROVER,SERVER] <CRLF>\r\n"
+"RTKSRC [TCP,UDP,COM,UDPCOM] <CRLF>\r\n"
+"其中RTKSRC用于选择获取或输出差分数据的接口及协议，TCP/UDP均使用RJ45网口，COM"
+"使用串口；SERVER模式仅在TCP时有效。\r\n"
+"UDPCOM表示网络UDP功能与串口功能同时打开，用以支持电台，此时GGA从控制口输出。"
+"注：中括号[]中的参数只能选取一个进行设置。"
+
+msgid "help_info_3"
+msgstr ""
+"设备目前的配置信息均可通过指令查看，常用的指令如下：\r\n"
+"RTU INFO <CRLF> ;可查看设备的工作配置信息\r\n"
+"\r\n"
+"v5.04版之前的固件，需要用两条指令：\r\n"
+"BASE POSITION<CRLF> ;查看基站位置\r\n"
+"BASE DIFF<CRLF>     ;查看基站差分格式配置\r\n"
+" "
+
+msgid "help_info_4"
+msgstr ""
+"设备的硬件与软件状态信息均可通过指令查看，常用的指令如下：\r\n"
+"RTU UDID <CRLF> ;查看设备的CPU ID\r\n"
+"ETH MAC <CRLF>  ;查看设备的MAC地址；\r\n"
+"HELP <CRLF>     ;查看设备的固件版本、硬件版本、生产日期\r\n"
+"TOP <CRLF>      ;查看设备的背板信息，开机时间，RTK定位时间等\r\n"
+"BAUD <CRLF>     ;查看设备控制串口和差分串口的波特率\r\n"
+"BAUD DIFF [9600,19200,38400,57600,115200]<CRLF> ;修改差分串口的波特率\r\n"
+"$JI<CRLF>       ;查看GNSS板卡的序列号、固件版本等；\r\n"
+"\r\n"
+"RTU RESET<CRLF> ;重启设备,设备的启动输出信息包含了BOOT版本。\r\n"
+" "
+
+msgid "help_info_5"
+msgstr ""
+"目前在产支持北斗的设备，分两种状态：\r\n"
+"1) 仅支持北斗B1单点定位，不参与RTK解算；可通过控制串口查看北斗定位、搜星情"
+"况；\r\n"
+"   BDMSG GGA [0,1]<CRLF>  ;北斗定位的GBGGA输出或关闭，默认关闭；\r\n"
+"   BDMSG RMC [0,1]<CRLF>  ;北斗定位的GBRMC输出或关闭，默认关闭；\r\n"
+"   BDMSG GSV [0,1]<CRLF>  ;北斗定位的GBGSV输出或关闭，默认关闭；\r\n"
+"   BDMSG ALL [0,1]<CRLF>  ;北斗定位的GBGGA/RMC/GSV输出或关闭，默认关闭；\r\n"
+"2) 支持北斗B1/B2/B3，北斗参与RTK解算；\r\n"
+"   $JASC,PSAT,RTKSTAT,[1,0]<CRLF> ;设置RTK解算状态输出\r\n"
+"   RTKSTAT输出数据参考：$PSAT,RTKSTAT,FIX,RTCM3,1,01FF,0.1,(,L1,L2,G1,G2,B1,"
+"B2,B3,)(,5,4,4,3,8,8,8,)(,A,A,A,A,A,A,A,),952,0,0.064,014,0*11\r\n"
+"   简单判断，字母全为A，且‘*’前倒数第2个数字为000最好，此处014表示参与RTK解算"
+"的GPS L1卫星数量少于6颗，RTK解算的水平位置置信度不高。\r\n"
+" "
+
+msgid "help_info_6"
+msgstr ""
+"基准站需要配置基站坐标、差分数据格式，以及链路接口与协议。\r\n"
+"基站坐标设置指令：BASE POSITION lat lon alt<CRLF> ;lon,lat,alt为WGS84坐标的经"
+"纬高,lat,lon单位为度，alt单位为米，alt为椭球高，用GGA中的两个高程和即可。\r\n"
+"例如：BASE POSITION 34.19147681 108.85722886 399.328<CRLF>\r\n"
+"\r\n"
+"差分数据格式设置指令：BASE DIFF [RTCM3,CMR]<CRLF> ;CMR中无北斗与GLONASS差分数"
+"据,P303硬件不支持北斗，RTCM v3.2才支持MSM，即含北斗差分数据。\r\n"
+"\r\n"
+"针对链路接口及协议，存下以种情况：\r\n"
+"1) 串口Base：RTKSRC COM<CRLF> ;设置链路为串口\r\n"
+"2) UDP Base：RTKSRC UDP<CRLF> ;设置链路为UDP\r\n"
+"             BASE UDPPORT [a.b.c.d:]port <CRLF>; 其中a.b.c.d表示IP地址，其主"
+"要用于定点发送或广播，port表示端口号。新建基站建议不填IP地址，采用UDP握手模"
+"式；\r\n"
+"3) Ntrip Caster(TCP): RTKSRC TCP<CRLF> ;设置链路为TCP\r\n"
+"             BASE TCPPORT port<CRLF>；其中port为服务器端口;\r\n"
+"             BASE MOUNTPOINT mount password<CRLF>；其中mount为基准站的挂载点"
+"名称，password为移动站登录用的密码；每个参数不超过10个字母，区分大小写。\r\n"
+"4) Ntrip Server(TCP):RTKSRC TCP<CRLF> ;设置链路为TCP\r\n"
+"             SERVER TCPPORT a.b.c.d:port<CRLF>；其中a.b.c.d表示服务器IP地址，"
+"port为服务器端口；\r\n"
+"             SERVER MOUNTPOINT mount password<CRLF>；其中mount为基准站的挂载"
+"点名称，password为基准站登录用的密码；每个参数不超过10个字母，区分大小"
+"写。\r\n"
+" "
+
+msgid "help_info_7"
+msgstr ""
+"移动站对应不同的接口与协议，存下以种情况：\r\n"
+"1) UDP Rover：RTKSRC UDP<CRLF> ;设置链路为UDP\r\n"
+"              ROVER UDPPORT [a.b.c.d:]port <CRLF>; 其中a.b.c.d表示服务器IP地"
+"址，port表示端口号。基站采用255广播模式时，不填IP地址，或填0.0.0.0(针对PC软"
+"件)；\r\n"
+"2) Ntrip Client(TCP)：RTKSRC TCP<CRLF> ;设置链路为TCP\r\n"
+"             ROVER TCPPORT a.b.c.d:port<CRLF>；其中a.b.c.d表示服务器IP地址，"
+"port为服务器端口；\r\n"
+"             ROVER MOUNTPOINT mount  user:password<CRLF>；其中mount为基准站的"
+"挂载点名称，不超过10个字母，区分大小写；user:password中user表示Ntrip登录用户"
+"名，password表示密码，分冒号“:”分隔，user与password长度均不超过10个字母，区分"
+"大小写。\r\n"
+"3) 串口Rover：RTKSRC COM<CRLF> ;设置链路为串口，差分串口默认波特率19200\r\n"
+" "
+
+msgid "help_info_8"
+msgstr ""
+"快速配置主要针对驾考类局域网UDP快速配置基准站与移动站。按UDP广播模式与UDP握手"
+"模式两种方式快速配置。\r\n"
+"\r\n"
+"设备配置步骤如下：\r\n"
+"1) 配置ETH参数，自动获取IP或者设置静态IP地址；\r\n"
+"2) RTKSRC选择链路；\r\n"
+"3) RTU MODE指令选择工作模式；\r\n"
+"4) 设置工作模式所需的参数；\r\n"
+"5) 重启设备。\r\n"
+"\r\n"
+"注：UDP握手模式在v6.01版之后才支持。"
+
+msgid "help_info_9"
+msgstr ""
+"基准站快速建站步骤:\r\n"
+"1) ETH IPDHCP OFF<CRLF> \r\n"
+"2) ETH IPSTATIC 192.168.2.6 255.255.255.0 192.168.2.1<CRLF>\r\n"
+"3) RTKSRC UDP<CRLF>\r\n"
+"4) RTU MODE BASE<CRLF>\r\n"
+"5) BASE UDPPORT 192.168.2.255:6001<CRLF>\r\n"
+"6) BASE POSITION 34.19147681 108.85722886 399.328<CRLF>\r\n"
+"7) BASE DIFF RTCM3<CRLF>\r\n"
+"8) RTU RESET<CRLF>\r\n"
+"\r\n"
+"移动站快速建站步骤:\r\n"
+"1) ETH IPDHCP OFF<CRLF> \r\n"
+"2) ETH IPSTATIC 192.168.2.21 255.255.255.0 192.168.2.1<CRLF>\r\n"
+"3) RTKSRC UDP<CRLF>\r\n"
+"4) RTU MODE ROVER<CRLF>\r\n"
+"5) ROVER UDPPORT 6001<CRLF>\r\n"
+"6) RTU RESET<CRLF>\r\n"
+" "
+
+msgid "help_info_10"
+msgstr ""
+"注：UDP握手模式在v6.01版之后才支持。移动站开始后每40秒向基准站发一包握手信"
+"息，基准站收到有效握手信息后，2分钟有效。\r\n"
+"\r\n"
+"基准站快速建站步骤:\r\n"
+"1) ETH IPDHCP OFF<CRLF> \r\n"
+"2) ETH IPSTATIC 192.168.2.6 255.255.255.0 192.168.2.1<CRLF>\r\n"
+"3) RTKSRC UDP<CRLF>\r\n"
+"4) RTU MODE BASE<CRLF>\r\n"
+"5) BASE UDPPORT 6001<CRLF>\r\n"
+"6) BASE POSITION 34.19147681 108.85722886 399.328<CRLF>\r\n"
+"7) BASE DIFF RTCM3<CRLF>\r\n"
+"8) RTU RESET<CRLF>\r\n"
+"\r\n"
+"移动站快速建站步骤:\r\n"
+"1) ETH IPDHCP OFF<CRLF> \r\n"
+"2) ETH IPSTATIC 192.168.2.21 255.255.255.0 192.168.2.1<CRLF>\r\n"
+"3) RTKSRC UDP<CRLF>\r\n"
+"4) RTU MODE ROVER<CRLF>\r\n"
+"5) ROVER UDPPORT 192.168.2.6:6001<CRLF>\r\n"
+"6) RTU RESET<CRLF>\r\n"
+" "
+
+msgid "help_info_11"
+msgstr ""
+"故障诊断相关信息待完善。\r\n"
+"\r\n"
+"\r\n"
+"常见应用配置指令(从控制口输入指令,波特率：115200或19200)：\r\n"
+"1) 锁定基准站坐标：\r\n"
+"        $JMODE,FIXLOC,YES<CRLF>\r\n"
+"        $JAVE<CRLF>\r\n"
+"2) 使用电台链路，电台占用差分串口，控制口出GGA数据：\r\n"
+"        $JASC,GPGGA,5<CRLF>\r\n"
+"        $JAVE<CRLF>\r\n"
+" "
+
+# -----Coordinate Panel
+msgid "pg_Coordinate"
+msgstr "坐标转换参数"
+
+msgid "st_a"
+msgstr "长半径(m)"
+
+msgid "st_f"
+msgstr "扁率"
+
+msgid "st_L"
+msgstr "中央子午线"
+
+msgid "st_Xtran"
+msgstr "X平移(m)"
+
+msgid "st_Ytran"
+msgstr "Y平移(m)"
+
+msgid "st_Ztran"
+msgstr "Z平移(m)"
+
+msgid "st_Xro"
+msgstr "X轴旋转(s)"
+
+msgid "st_Yro"
+msgstr "Y轴旋转(s)"
+
+msgid "st_Zro"
+msgstr "Z轴旋转(s)"
+
+msgid "st_Scale"
+msgstr "尺度"
+
+msgid "st_ell"
+msgstr "椭球"
+
+msgid "st_X"
+msgstr "X常数"
+
+msgid "st_Y"
+msgstr "Y常数"
+
+msgid "st_rate"
+msgstr "输出频率(Hz)"
+
+msgid "bt_Set"
+msgstr "设置"
+
+msgid "bt_Get"
+msgstr "读取配置"
+
+msgid "st_CS"
+msgstr "当前设置"
+
+msgid "st_CS1"
+msgstr "当前设置"
+
+msgid "Beijing54"
+msgstr "北京54"
+
+msgid "Xi'an80"
+msgstr "西安80"
+
+msgid "User"
+msgstr "自定义"
+
+msgid "L_7Para"
+msgstr "七参数"
+
+msgid "L_EllPara"
+msgstr "椭球参数"
+
+# -----CMD Panel
+msgid "pg_CMD"
+msgstr "输出语句设置"
+
+msgid "bss_cmd_def"
+msgstr "选择语句"
+
+msgid "bss_cmd_user"
+msgstr "输入语句"
+
+msgid "bss_cmd_rate"
+msgstr "输出频率"
+
+msgid "btt_add_cmd"
+msgstr "添加语句"
+
+msgid "btt_set_cmd"
+msgstr "设置语句"
+
+msgid "btt_del_cmd"
+msgstr "删除语句"
